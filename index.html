@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Quiz Learning Agility | Doutorize - Aprendizado Adaptativo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Quiz Learning Agility" name="description" />
+    <meta content="D" name="author" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!-- Bootstrap Css -->
+    <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+    <!-- Quiz Css -->
+    <link href="quiz/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body data-layout="horizontal" data-topbar="dark">
+
+    <div class="container-fluid">
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+
+          <header id="page-topbar">
+              <div class="navbar-header">
+                  <div class="d-flex">
+                      <!-- LOGO -->
+                      <div class="navbar-brand-box">
+
+                          <a href="quiz01.html" class="logo logo-light">
+                              <span class="logo-sm">
+                                  <img src="assets/images/logo-sm-dark.png" alt="" height="35">
+                              </span>
+                              <span class="logo-lg">
+                                  <img src="assets/images/logo-light.png" alt="" height="35">
+                              </span>
+                          </a>
+                      </div>
+
+                      <button type="button" class="btn btn-sm px-3 font-size-16 d-lg-none header-item waves-effect waves-light" data-toggle="collapse" data-target="#topnav-menu-content">
+                          <i class="fa fa-fw fa-bars"></i>
+                      </button>
+
+                      <div class="topnav">
+                          <nav class="navbar navbar-light navbar-expand-lg topnav-menu">
+
+                              <div class="collapse navbar-collapse" id="topnav-menu-content">
+                                  <ul class="navbar-nav">
+                                      <li class="nav-item dropdown">
+                                          <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-dashboard" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              Saiba mais <div class="arrow-down"></div>
+                                          </a>
+                                          <div class="dropdown-menu" aria-labelledby="topnav-dashboard">
+                                              <a href="https://doutorizecursos.com.br/learning-agility" class="dropdown-item">GBA® Learning Agility</a>
+                                              <a href="https://youtu.be/vh7RyZbj58U" class="dropdown-item">Apresentação do curso</a>
+                                          </div>
+                                      </li>
+
+                                  </ul>
+                              </div>
+                          </nav>
+                      </div>
+                  </div>
+              </div>
+          </header>
+
+            <!-- ============================================================== -->
+            <!-- Content -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+
+                    <!-- start page title -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box d-flex align-items-center justify-content-between">
+                                <h4 class="page-title mb-0 font-size-18">QUIZ LEARNING AGILiTY</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end page title -->
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-12 text-center">
+                          <div class="home-wrapper">
+
+                            <div class="row justify-content-center">
+                              <div class="col-sm-4">
+                                <div>
+                                  <h2>Teste Learning Agility<h2/>
+                                  <br>
+                                </div>
+                                <div class="maintenance-img">
+                                  <img src="assets/images/maintenance.png" alt="" class="img-fluid mx-auto d-block">
+                                </div>
+                              </div>
+                            </div>
+                            <br><br>
+                            <div id="quiz"> <!-- ENUNCIADO qustion -->
+
+                            <h3 class="mt-5"><p id="question"></p></h3>
+                              <br>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="card card-body text-center">
+                                              <p class="card-text"></p><button id="btn0" type="button" class="btn btn-primary btn-lg btn-block waves-effect waves-light mb-1"><span id="choice0"></span></button>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 ">
+                                      <div class="card card-body text-center">
+                                            <p class="card-text"></p><button id="btn1" type="button" class="btn btn-primary btn-lg btn-block waves-effect waves-light mb-1"><span id="choice1"></span></button>
+                                      </div>
+                                </div>
+
+                              <div class="col-lg-4">
+                                <div class="card card-body text-center">
+                                    <p class="card-text"></p><button id="btn2" type="button" class="btn btn-primary btn-lg btn-block waves-effect waves-light mb-1"><span id="choice2"></span></button>
+                                </div>
+                              </div>
+                            </div>
+
+                                <!-- end row -->
+
+                                <hr style="margin-top: 50px">
+                                <p id="progress"></p><br>
+                            </div>
+                          </div>
+                            </div>
+                        </div>
+                  </div>
+        <!-- end container -->
+
+                </div>
+                <!-- End Page-content -->
+
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <script>document.write(new Date().getFullYear())</script> © Doutorize.
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+    </div>
+    <!-- end container-fluid -->
+
+
+    <!-- JAVASCRIPT -->
+    <script src="assets/libs/jquery/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/metismenu/metisMenu.min.js"></script>
+    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="assets/libs/node-waves/waves.min.js"></script>
+
+    <!-- App Quiz js -->
+    <script src="quiz/quiz.js"></script>
+    <script src="quiz/question.js"></script>
+    <script src="quiz/app.js"></script>
+
+</body>
+
+</html>
