@@ -44,7 +44,7 @@ function showScores() {
 
 // create questions
 var questions = [
-    new Question("Tenho clareza de meu propósito de vida (pessoal e profissional)?", ["Tenho clareza e direcionamento de propósito pessoal e profissional.", "Preciso pensar para formular", "Não vejo razão em formular propósito."], "Tenho clareza e direcionamento de propósito pessoal e profissional."),
+    new Question("Tenho clareza de meu propósito de vida (pessoal e profissional)?", ["Sim, tenho clareza e direcionamento de propósito pessoal e profissional.", "Preciso pensar para formular", "Não vejo razão em formular propósito."], "Sim, tenho clareza e direcionamento de propósito pessoal e profissional."),
     new Question("Conheço meus pontos fortes e limitações?", ["Estou buscando me conhecer, o processo exige disciplina.", "Me conheço bem e busco melhorar sempre.","Tenho coisas mais importantes para me preocupar."], "Me conheço bem e busco melhorar sempre."),
     new Question("Eu aprendo fortemente com meus erros, vendo-os como oportunidade de aprender e crescer?", ["Sim, busco sempre refletir sobre meus erros como oportunidades de aprender e avançar.", "Meus padrões de exigências são altos, não lido bem com o erro.","Não costumo assumir erros e tenho dificuldade de tolerar erros."], "Sim, busco sempre refletir sobre meus erros como oportunidades de aprender e avançar."),
     new Question("As pessoas consideram que eu ouço atentamente e considero ideias e sugestões diferentes na busca de soluções?", ["Sou um bom ouvinte, mas não tenho tempo para falta de objetividade.", "Ouço com interesse e percebo a diversidade como valor.","Não tenho paciência para ouvir e para lidar com opiniões diferentes."], "Ouço com interesse e percebo a diversidade como valor."),
